@@ -46,7 +46,7 @@ class MapActivity: AppCompatActivity(), OnMapReadyCallback {
 
         val location = LatLng(lat, lon)
         map.addMarker(MarkerOptions().position(location).title(title))
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 15f))
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 25f))
 
     }
 }

@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="12dp"
         android:text="Sitios Historicos"
         android:textSize="45sp"
         android:textStyle="bold" />
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerLugares"
+            android:id="@+id/recyclerCiudad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:listitem="@layout/item_lugar"/>
